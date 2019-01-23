@@ -1,0 +1,21 @@
+{
+    "name": "alzundaz/profilermodule",
+    "description": "Profiler for NitroPHP",
+    "type": "nitrophp-module",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "GothShoot",
+            "email": "romuald.mocq@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "composer/installers": "~1.0",
+        "alzundaz/coremodule": "*"
+    },
+    "extra": {
+        "installer-name": "ProfilerModule"
+    }
+}
